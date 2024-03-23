@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAcademy - Catálogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="/html/Home.html"><img src="logo.png" alt="CodeAcademy"></a>
+        <nav>
+            <a href="/html/Catalog.html">Catalogo</a>
+            <a href="#">Exercícios</a>
+            <a href="/html/AboutUs.html">Projetos</a>
+            <a href="/html/Community.html">Comunidade</a>
+        </nav>
+        <button class="menu-toggle">Menu</button>
+    </header>
+    <main>
+        <section class="catalogo">
+            <h1>Explore o nosso Catálogo</h1>
+            <p>Escolha entre centenas de cursos para aprimorar suas habilidades de programação.</p>
+            <div class="filtros">
+                <h4>Filtrar por categoria:</h4>
+                <select name="categoria">
+                    <option value="">Todas</option>
+                    <option value="web">Desenvolvimento Web</option>
+                    <option value="data">Ciência de Dados</option>
+                    <option value="mobile">Desenvolvimento Mobile</option>
+                    <option value="games">Desenvolvimento de Games</option>
+                </select>
+            </div>
+            <div class="cursos">
+                <article class="curso">
+                    <img src="imagem-curso1.png" alt="Imagem do curso 1">
+                    <h3>Aprenda Python do zero</h3>
+                    <p>Domine os fundamentos da linguagem Python com este curso completo.</p>
+                    <a href="#">Ver curso</a>
+                </article>
+                <article class="curso">
+                    <img src="imagem-curso2.png" alt="Imagem do curso 2">
+                    <h3>Desenvolva seu primeiro site web</h3>
+                    <p>Crie sites dinâmicos utilizando HTML, CSS e JavaScript.</p>
+                    <a href="#">Ver curso</a>
+                </article>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; CodeAcademy 2024</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('ativo');
+        });
+    </script>
+</body>
+</html>

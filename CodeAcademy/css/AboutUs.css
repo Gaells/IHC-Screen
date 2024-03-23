@@ -1,0 +1,18 @@
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+  .sobre-nos h1 {
+      font-size: 1.5rem;
+  }
+  .sobre-nos p {
+      font-size: 1rem;
+  }
+  .equipe {
+      flex-direction: column;
+  }
+  .membro {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+  }
+}

@@ -1,0 +1,30 @@
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 1.5rem;
+  }
+  .hero p {
+      font-size: 1rem;
+  }
+  .secoes {
+      flex-direction: column;
+  }
+  .secao {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .destaques {
+      display: none;
+  }
+  footer {
+      position: relative;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero img {
+      display: none;
+  }
+}

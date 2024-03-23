@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAcademy</title>
+    <link rel="stylesheet" href="/css/Home.css">
+</head>
+<body>
+    <header>
+        <a href="/html/Home.html"><img src="logo.png" alt="CodeAcademy"></a>
+        <nav>
+            <a href="/html/Catalog.html">Catalogo</a>
+            <a href="#">Exercícios</a>
+            <a href="/html/AboutUs.html">Projetos</a>
+            <a href="/html/Community.html">Comunidade</a>
+        </nav>
+        <button class="menu-toggle">Menu</button>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Aprenda a programar <br> de forma fácil e divertida</h1>
+            <p>Domine habilidades valiosas para a carreira tecnológica com nossos cursos interativos e projetos práticos.</p>
+            <a href="#">Comece agora!</a>
+        </section>
+        <section class="secoes">
+            <h2>Explore a CodeAcademy</h2>
+            <div class="secao">
+                <img src="icone-cursos.png" alt="Ícone de Cursos">
+                <h3>Cursos</h3>
+                <p>Escolha entre centenas de cursos para iniciantes e profissionais.</p>
+            </div>
+            <div class="secao">
+                <img src="icone-projetos.png" alt="Ícone de Projetos">
+                <h3>Projetos</h3>
+                <p>Coloque o que aprendeu em prática com projetos reais e desafiadores.</p>
+            </div>
+            <div class="secao">
+                <img src="icone-comunidade.png" alt="Ícone de Comunidade">
+                <h3>Comunidade</h3>
+                <p>Conecte-se com outros programadores e aprenda junto.</p>
+            </div>
+        </section>
+        <section class="destaques">
+            <h2>Destaques da Semana</h2>
+            <div class="destaque">
+                <img src="imagem-destaque1.png" alt="Imagem de destaque 1">
+                <h4>Aprenda Python do zero</h4>
+                <p>Domine os fundamentos da linguagem Python com este curso completo.</p>
+            </div>
+            <div class="destaque">
+                <img src="imagem-destaque2.png" alt="Imagem de destaque 2">
+                <h4>Desenvolva seu primeiro site web</h4>
+                <p>Crie sites dinâmicos utilizando HTML, CSS e JavaScript.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; CodeAcademy 2024</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('ativo');
+        });
+    </script>
+</body>
+</html>

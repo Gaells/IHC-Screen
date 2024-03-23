@@ -1,0 +1,18 @@
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+  .comunidade h1 {
+      font-size: 1.5rem;
+  }
+  .comunidade p {
+      font-size: 1rem;
+  }
+  .secoes-comunidade {
+      flex-direction: column;
+  }
+  .secao {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+  }
+}
