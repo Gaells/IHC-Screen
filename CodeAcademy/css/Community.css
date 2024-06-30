@@ -1,18 +1,72 @@
-/* Estilos responsivos */
-
-@media (max-width: 768px) {
-  .comunidade h1 {
-      font-size: 1.5rem;
-  }
-  .comunidade p {
-      font-size: 1rem;
-  }
-  .secoes-comunidade {
-      flex-direction: column;
+  .secoes {
+    padding: 50px 0;
+    text-align: center;
   }
   .secao {
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
+    margin-bottom: 30px;
   }
+  .secao img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  .destaques {
+    background: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .destaque {
+    margin-bottom: 30px;
+  }
+  .destaque img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  .comunidade {
+    height: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e9ecef;
+  }
+  .comunidade h1 {
+    color: #007bff;
+  }
+  .comunidade p {
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  .secoes-comunidade {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .secoes-comunidade .secao {
+    margin: 20px;
+    text-align: center;
+  }
+  .secoes-comunidade .secao img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
+.footer p {
+    margin-bottom: 0;
+}
+
+  body, html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+    
+    
